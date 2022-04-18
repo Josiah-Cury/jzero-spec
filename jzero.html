@@ -143,7 +143,7 @@ Booleans and chars are stored in a single byte (like C, rather than Java
 16-bit characters)
 
 </p><p>
-  
+
   j0 has <code>while</code> and <code>for</code> loops.
   Curly braces around the loop body are required.
   For loops require non-empty expressions for all three parts of the header.
@@ -214,6 +214,8 @@ Java has arrays, which are a weird built-in thing that are not class
 instances and have special syntax support.
 j0 has one-dimensional arrays only.
 
+SUPER AWESOME
+
 </p><p>
 
 When in doubt about j0 features, refer to the Java language specification.
@@ -248,7 +250,7 @@ return, and newline.
     /* this is a
     multiple line
     comment */</pre>
-  
+
 <p>
 <a name="Reserved"></a><b><font size="3">2.2 Reserved Words</font></b>
 </p><p>
@@ -283,7 +285,7 @@ this, throw, throws, transient, try, var, volatile, private</s>.
 </p><p>
 
   j0 supports the following operators</p><p>
-  
+
 <table border="">
   <tbody><tr> <td> = </td><td> assignment. j0.2+ includes +=, -=. </td></tr>
   <tr> <td> + - * / </td><td> binary arithmetic, int and float</td></tr>
@@ -359,7 +361,7 @@ declaration lists and function parameter lists.
   </li><li> characters may be a printable character from the keyboard, or an
        escape character, see below
 </li></ul>
- 
+
 
 <h4>Escape Sequences (Character and String Literals)</h4>
 
@@ -388,7 +390,7 @@ Escape sequence</th><th>Hex value in ASCII</th><th>	Character represented
 </td></tr><tr><td>\uhhhh</td><td>none</td><td> Unicode code points
 </td></tr></tbody></table>
 
-   
+
 </p><p>
 <a name="Punctuation"></a><b><font size="3">2.5 Punctuation</font></b>
 </p><p>
@@ -438,7 +440,7 @@ portions of it that will be unsupported and trigger an error in HW#3.
 </p><pre><em>return type</em> identifier ( <em>parameter_list</em> ) { <em>function body</em> }
 </pre>
 
-  
+
 <p>
 <a name="ControlStructures"></a><b><font size="3">3.2 Control Structures</font></b>
 </p><p>
@@ -457,7 +459,7 @@ statements;
 }
 </pre>
 
-  
+
 <p>
 <a name="Classes"></a><b><font size="3">3.3 Classes</font></b>
 </p><p>
@@ -538,12 +540,12 @@ single dimensional arrays. For example:
   or
   </p><pre>int [] num;
 num = new int[100]; </pre>
-<p>  
+<p>
 
 Such array construction is the only use of reserved word
 <code>new</code> in j0.
 </p><p>
-  
+
 Java supports empty square brackets array syntax on either side of the
 identifier, but j0 only supports empty square brackets on the left of
 the identifier.
